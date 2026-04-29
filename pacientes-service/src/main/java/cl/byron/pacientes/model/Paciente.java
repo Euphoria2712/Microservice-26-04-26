@@ -28,7 +28,7 @@ public class Paciente {
 
     @NotBlank(message = "El nombre no debe estar vacio")
     @Size(min = 2, max = 30)
-    private String name;
+    private String nombre;
 
     private String documento;
     private LocalDate fechaNacimiento;

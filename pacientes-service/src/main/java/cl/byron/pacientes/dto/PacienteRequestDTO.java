@@ -5,11 +5,11 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
-public class PacienteResponseDTO {
+public class PacienteRequestDTO {
 
-    private Long id;
     private String nombre;
     private String documento;
     private LocalDate fechaNacimiento;
 
+    
 }

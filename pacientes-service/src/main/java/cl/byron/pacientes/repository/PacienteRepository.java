@@ -12,4 +12,5 @@ public interface PacienteRepository extends JpaRepository<Paciente, Long> {
 
     List<Paciente> findByDocumento(String documento);
 
+
 }
